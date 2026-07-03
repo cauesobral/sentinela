@@ -1,0 +1,3 @@
+shared é compartilhado, ao invés de criar varios
+header, footer, menu e slidebar
+colocamos tudo no shared pra nao ficar repetido

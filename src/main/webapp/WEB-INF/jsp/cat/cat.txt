@@ -1,0 +1,2 @@
+cat significa comunicação de acidente de trabalho
+módulo para emissao da cat
