@@ -1,0 +1,2 @@
+dao conversa com o banco de dados
+dto conversa com a interface (jsp/action)
