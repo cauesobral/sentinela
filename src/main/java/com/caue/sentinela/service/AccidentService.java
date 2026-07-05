@@ -6,5 +6,6 @@ import java.util.List;
 
 public class AccidentService {
     public List<AccidentDTO> findAll() {
+        return null;
     }
 }

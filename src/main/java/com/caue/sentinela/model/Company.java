@@ -1,5 +1,6 @@
 package com.caue.sentinela.model;
 
+import com.caue.sentinela.model.enums.Severity;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
@@ -26,7 +27,7 @@ public class Company {
     private String cnae;
 
     @Column(nullable = false)
-    private Integer riskLevel;
+    private Severity riskLevel;
 
     @Column(length = 20)
     private String phone;
@@ -87,11 +88,11 @@ public class Company {
         this.cnae = cnae;
     }
 
-    public Integer getRiskLevel() {
+    public Severity getRiskLevel() {
         return riskLevel;
     }
 
-    public void setRiskLevel(Integer riskLevel) {
+    public void setRiskLevel(Severity riskLevel) {
         this.riskLevel = riskLevel;
     }
 
